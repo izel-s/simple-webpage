@@ -1,0 +1,75 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    width: 100%;
+    height: 100vh;
+    margin: 0;
+    font-size: 20px;
+    background-color: #fefae0;
+    color: black;
+}
+li {
+    list-style: none;
+}
+.nav-lists {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 1.2rem 1rem;
+    padding-left: 0px;
+}
+a {
+    text-decoration: none;
+    color: black;
+}
+#search, #submit {
+    height: 2em;
+    font-size: 1rem;
+    background-color: white;
+    border: 1px solid #bcb8b1;
+    border-radius: 5px;   
+}
+
+#log-in, #sign-up {
+    border-radius: 5px;
+    padding: 4px;
+    background-color: #d4a373;
+}
+main {
+    background-image: url("book3.jpg");
+    object-fit: cover;
+    background-repeat: no-repeat;
+    min-height: 600px;
+    margin: 1rem 2rem;
+    border-radius: 10px;
+}
+main h1 {
+    text-align: center;
+    margin: 1.5rem auto;
+    padding: 1.5rem 0 1rem;
+}
+section ul {
+    padding: 2rem;
+    font-size: 1.5rem;
+}
+section ul li {
+    padding: 1.5rem;
+}
+footer {
+    padding: 0rem 1rem 1rem;
+    float: right;
+    font-size: 1.4rem;
+}
+#email {
+    font-style: italic;
+}
+a:hover {
+    text-decoration: underline;
+}
+#log-in:hover, #sign-up:hover {
+    background-color: #fed9b7;
+}
+.not-underline:hover {
+    text-decoration: none;
+}
